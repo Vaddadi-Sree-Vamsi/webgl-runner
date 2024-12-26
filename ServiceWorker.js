@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d502d3d ( new build gzip)
 const cacheName = "AVATAi-RunnerGame-v0.2";
 const contentToCache = [
-    "Build/webgl build again.loader.js",
-    "Build/webgl build again.framework.js",
-    "Build/webgl build again.data",
-    "Build/webgl build again.wasm",
+    "Build/webgl build again.loader.js.gz",  // Updated to .gz
+    "Build/webgl build again.framework.js.gz", // Updated to .gz
+    "Build/webgl build again.data.gz",        // Updated to .gz
+    "Build/webgl build again.wasm.gz",        // Updated to .gz
     "TemplateData/style.css",
 ];
 
@@ -63,14 +59,3 @@ self.addEventListener('fetch', function (e) {
         return networkResponse;
     })());
 });
-<<<<<<< HEAD
-=======
-=======
-
-self.addEventListener('install', function (e) {
-    console.log('[Service Worker] Install');
-    
-});
-
->>>>>>> 9cc211a ( new gzip build)
->>>>>>> d502d3d ( new build gzip)
